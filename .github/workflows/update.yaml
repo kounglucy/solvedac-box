@@ -22,5 +22,5 @@ jobs:
         run: go run .
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: a3e7d0b25e855f520cb226aedd5f5799
-          USERNAME: masil0207
+          GIST_ID: ${{ secrets.GIST_ID }}
+          USERNAME: ${{ secrets.USERNAME }}
